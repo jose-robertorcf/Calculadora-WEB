@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Desafio - Calculadora WEB</title>
+    <link rel="stylesheet" href="style.css">
+    
+</head>
+<body>
+    
+    
+
+   <form>
+    <input type="text" id="tela" width="435" disabled>
+   </form>
+
+    <table>
+        <tbody>
+            <tr>
+                <td width = "100"></td>
+                <td width = "100"></td>
+                <td width = "100"></td>
+                <td width = "100" ><button onclick="limparTela()" id="buttonC">C</button></td>
+            </tr>
+            <tr>
+                <td width = "100"><button onclick="mandarTela('1')">1</button></td>
+                <td width = "100"><button onclick="mandarTela('2')">2</button></td>
+                <td width = "100"><button onclick="mandarTela('3')">3</button></td>
+                <td width = "100"><button onclick="mandarTela('/')">/</button></td>
+            </tr>
+            <tr>
+                <td width = "100"><button onclick="mandarTela('4')">4</button></td>
+                <td width = "100"><button onclick="mandarTela('5')">5</button></td>
+                <td width = "100"><button onclick="mandarTela('6')">6</button></td>
+                <td width = "100"><button onclick="mandarTela('*')">*</button></td>
+            </tr>
+            <tr>
+                <td width = "100"><button onclick="mandarTela('7')">7</button></td>
+                <td width = "100"><button onclick="mandarTela('8')">8</button></td>
+                <td width = "100"><button onclick="mandarTela('9')">9</button></td>
+                <td width = "100"><button onclick="mandarTela('-')">-</button></td>
+            </tr>
+            <tr>
+                <td width = "100"><button onclick="mandarTela('.')">.</button></td>
+                <td width = "100"><button onclick="mandarTela('0')">0</button></td>
+                <td width = "100"><button onclick="calcular()">=</button></td>
+                <td width = "100"><button onclick="mandarTela('+')">+</button></td>
+            </tr>
+        </tbody>
+    </table>
+
+    <script src="script.js"></script>
+
+</body>
+</html>

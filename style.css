@@ -1,0 +1,31 @@
+td{
+   
+    text-align: center;
+}
+
+.celulaVazia{
+    border: 0;
+}
+
+form{
+    border: 1px solid;
+    max-width: 416px;
+    text-align: right;
+    box-sizing: border-box;
+}
+
+#tela{
+    width: 98.5%;
+}
+
+button{
+    width: 100px;
+    color: rgb(84, 164, 214);
+    background-color: white;
+    border-color: rgb(84, 164, 214);
+}
+
+#buttonC{
+    color: gold;
+    border-color: gold;
+}
